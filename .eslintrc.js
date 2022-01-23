@@ -12,7 +12,16 @@ module.exports = {
 		sourceType: "module",
 	},
 	plugins: ["react"],
+	settings: {
+		react: {
+			version: "detect",
+		},
+	},
 	rules: {
-		"react/jsx-props-no-spreading": false,
+		"no-console": "warn",
+		"react/prop-types": "warn",
+		"react/jsx-filename-extension": 0,
+		"react/jsx-props-no-spreading": 0,
+		"react/react-in-jsx-scope": 0,
 	},
 };
