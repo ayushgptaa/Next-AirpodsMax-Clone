@@ -1,17 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: red;
+/************** Variables ***************/
+$nav: 3rem;
+
+/************** Reset ***************/
+*,
+*::before,
+*::after,
+body,
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: SF Pro;
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+video {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	z-index: -1;
 }
 
-* {
-  box-sizing: border-box;
-}
