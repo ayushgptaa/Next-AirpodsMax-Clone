@@ -19,7 +19,7 @@ module.exports = {
 	},
 	rules: {
 		"no-console": "warn",
-		"react/prop-types": "warn",
+		"react/prop-types": 0,
 		"react/jsx-filename-extension": 0,
 		"react/jsx-props-no-spreading": 0,
 		"react/react-in-jsx-scope": 0,
