@@ -1,6 +1,12 @@
 import Navbar from "components/Navbar";
+import Hero from "components/Hero";
 
 const Home = () => {
-	return <Navbar />;
+	return (
+		<>
+			<Navbar />
+			<Hero />
+		</>
+	);
 };
 export default Home;
