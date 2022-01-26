@@ -1,0 +1,44 @@
+/************** Main Animation ***************/
+main {
+	overflow-x: hidden;
+	.hero {
+		position: relative;
+		height: calc(100vh - 3rem);
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.hero-img {
+		height: 100%;
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		img {
+			object-fit: contain;
+			padding-bottom: 5rem;
+		}
+	}
+
+	.hero-text {
+		position: absolute;
+		bottom: 2.5rem;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			height: 100%;
+			width: 80%;
+		}
+	}
+
+	p {
+		font-size: 1.3rem;
+		text-align: center;
+		font-weight: 600;
+		max-width: 80%;
+		margin: auto;
+	}
+}
