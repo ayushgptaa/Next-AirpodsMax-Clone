@@ -1,6 +1,4 @@
-
-
-$nav: 3rem;
+@use '../_mixins.scss';
 
 header {
 	position: fixed;
