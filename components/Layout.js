@@ -9,8 +9,6 @@ const Layout = () => {
 			<title>Airpods Max</title>
 			<link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
 			<link rel="apple-touch-icon" href="favicon/favicon.png" />
-			<link rel="stylesheet" href="./styles/style.css" />
-
 		</Head>
 	);
 };
