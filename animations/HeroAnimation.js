@@ -14,7 +14,7 @@ const HeroAimation = () => {
 		delay: 0.5,
 	})
 		.from(
-			".hero-img img",
+			".hero-img ",
 			{
 				duration: 1.2,
 				scale: 1.5,
