@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 
 import HeroAimation from "animations/HeroAnimation";
-import "styles/components/Hero.module.scss";
 
 const Hero = () => {
 	useEffect(() => {
