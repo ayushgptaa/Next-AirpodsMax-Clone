@@ -1,9 +1,13 @@
+@use '../variables';
+
 /************** Main Animation ***************/
+
+
 main {
 	overflow-x: hidden;
 	.hero {
 		position: relative;
-		height: calc(100vh - 3rem);
+		height: calc(100vh - variables.$nav);
 		width: 100%;
 		overflow: hidden;
 	}
