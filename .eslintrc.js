@@ -19,17 +19,18 @@ module.exports = {
 	},
 	rules: {
 		"no-console": "warn",
+		"import/no-unresolved": 0,
+		"arrow-body-style": 0,
+		"react/self-closing-comp": 0,
 		"react/prop-types": 0,
 		"react/jsx-filename-extension": 0,
 		"react/jsx-props-no-spreading": 0,
 		"react/react-in-jsx-scope": 0,
-		"import/no-unresolved": 0,
 		"react/function-component-definition": [
 			1,
 			{
 				namedComponents: "arrow-function",
 			},
 		],
-		"arrow-body-style": 0,
 	},
 };
