@@ -1,0 +1,29 @@
+.video-container {
+	position: relative;
+	margin-top: 5rem;
+	width: 100vw;
+}
+
+.overlay {
+	background-color: black;
+	position: absolute;
+	inset: 0;
+	height: 100vh;
+}
+
+.video-text {
+	width: 100%;
+	position: relative;
+	top: -80vh;
+	div {
+		height: 20vh;
+		text-align: left;
+		h1 {
+			width: 80%;
+			font-size: 2.5rem;
+			font-weight: 600;
+			text-align: left;
+			color: #fff;
+		}
+	}
+}
