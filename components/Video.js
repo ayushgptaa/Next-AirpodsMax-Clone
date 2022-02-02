@@ -1,9 +1,16 @@
+import { useEffect } from "react";
+import VideoAnimation from "animations/VideoAnimations";
+
 const Video = () => {
+	useEffect(() => {
+		VideoAnimation();
+	}, []);
+
 	return (
 		<section>
 			<div className="video-container">
 				<div className="overlay"></div>
-				<muted autoPlay loop src="./assets/mainVideo.mp4" />
+				<video muted autoPlay loop src="/assets/mainVideo.mp4" />
 				<div className="video-text">
 					<div>
 						<h1>High-fidelity audio</h1>
