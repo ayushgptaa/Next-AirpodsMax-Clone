@@ -12,15 +12,15 @@
 }
 
 .video-text {
-	width: 100%;
+	width: 85%;
+	margin: auto;
 	position: relative;
-	top: -80vh;
-	div {
-		height: 20vh;
+	top: -60vh;
+	li {
+		padding: 3.5rem 0;
 		text-align: left;
-		h1 {
-			width: 80%;
-			font-size: 2.5rem;
+		p {
+			font-size: 2.4rem;
 			font-weight: 600;
 			text-align: left;
 			color: #fff;
