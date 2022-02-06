@@ -8,7 +8,6 @@ html {
 	padding: 0;
 	box-sizing: border-box;
 	font-family: SF Pro;
-
 }
 
 img {
@@ -22,4 +21,6 @@ video {
 	object-fit: cover;
 	z-index: -1;
 }
-
+ul {
+	list-style: none;
+}
