@@ -11,20 +11,20 @@ const Video = () => {
 			<div className="video-container">
 				<div className="overlay"></div>
 				<video muted autoPlay loop src="/assets/mainVideo.mp4" />
-				<div className="video-text">
-					<div>
-						<h1>High-fidelity audio</h1>
-					</div>
-					<div>
-						<h1>Active Noise Cancellation with Transparency mode.</h1>
-					</div>
-					<div>
-						<h1>Spatial audio for theatre‑like sound that surrounds you</h1>
-					</div>
-					<div>
-						<h1>Stunning design with exceptional fit</h1>
-					</div>
-				</div>
+				<ul className="video-text">
+					<li>
+						<p>High-fidelity audio</p>
+					</li>
+					<li>
+						<p>Active Noise Cancellation with Transparency mode</p>
+					</li>
+					<li>
+						<p>Spatial audio for theatre‑like sound that surrounds you</p>
+					</li>
+					<li>
+						<p>Stunning design with exceptional fit</p>
+					</li>
+				</ul>
 			</div>
 		</section>
 	);
