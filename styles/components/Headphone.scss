@@ -1,0 +1,44 @@
+canvas {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sticky-container {
+	max-width: 100vw;
+	height: 1200px;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.sticky-wrapper {
+	margin-top: 4rem;
+	display: flex;
+	justify-content: center;
+	max-width: 100vw;
+}
+
+.hp-wrapper {
+	height: 100%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+
+	img {
+		width: 100%;
+		height: 100%;
+		z-index: 9;
+		visibility: hidden;
+	}
+}
+.frame-img {
+	height: 100%;
+	visibility: hidden;
+	z-index: -9;
+	position: absolute;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
