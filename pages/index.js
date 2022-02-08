@@ -1,6 +1,6 @@
 import Navbar from "components/Navbar";
 import Hero from "components/Hero";
-import Video from "components/Video";
+import VideoSection from "components/VideoSection";
 import TextSection from "components/TextSection";
 import Headphone from "components/Headphone";
 
@@ -9,7 +9,7 @@ const Home = () => {
 		<>
 			<Navbar />
 			<Hero />
-			<Video />
+			<VideoSection />
 			<TextSection />
 			<Headphone />
 		</>
